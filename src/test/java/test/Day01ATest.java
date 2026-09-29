@@ -72,7 +72,6 @@ public class Day01ATest {
         System.out.println("SOLUCIÓN DAY 1 - PART A: " + password);
         System.out.println("***********************************");
 
-        // Aserción ajustada para coincidir con tu input personalizado
         Assertions.assertEquals(1180, password);
     }
 }
