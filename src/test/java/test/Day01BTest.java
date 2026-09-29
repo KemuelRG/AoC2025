@@ -54,10 +54,6 @@ public class Day01BTest {
 
         int password = estadoFinal.zeroHits();
 
-        System.out.println("***********************************");
-        System.out.println("SOLUCIÓN DAY 1 - PART B: " + password);
-        System.out.println("***********************************");
-
-        assertEquals(6892, password, "La contraseña de la parte B debe ser 6892");
+        assertEquals(6892, password);
     }
 }

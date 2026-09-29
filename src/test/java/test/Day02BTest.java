@@ -41,10 +41,6 @@ public class Day02BTest {
 
         long result = giftShop.calculateInvalidIdSum(input);
 
-        System.out.println("***********************************");
-        System.out.println("SOLUCIÓN DAY 2 - PART B: " + result);
-        System.out.println("***********************************");
-
         assertEquals(50793864718L, result);
     }
 }
