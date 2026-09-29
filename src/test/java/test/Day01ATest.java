@@ -68,9 +68,6 @@ public class Day01ATest {
 
         int password = estadoFinal.zeroHits();
 
-        System.out.println("***********************************");
-        System.out.println("SOLUCIÓN DAY 1 - PART A: " + password);
-        System.out.println("***********************************");
 
         Assertions.assertEquals(1180, password);
     }
